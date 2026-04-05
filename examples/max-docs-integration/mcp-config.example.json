@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "max-docs": {
+      "command": "node",
+      "args": ["/absolute/path/to/max_docs_mcp/dist/index.js"]
+    }
+  }
+}
