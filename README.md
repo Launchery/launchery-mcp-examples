@@ -10,13 +10,14 @@
 
 This repository is intentionally narrow: not "all MCP examples", but a small set of **high-signal runnable examples** built on top of existing Launchery assets.
 
-### v1.0.0 examples
+### Current examples
 
 | Example | Focus | Source asset | What you get |
 |---|---|---|---|
 | [Example 1 — MAX docs integration](examples/max-docs-integration/README.md) | docs server in a real client flow | `max_docs_mcp` | setup guide, sample MCP config, prompts |
 | [Example 2 — Custom MCP server](examples/custom-mcp-server/README.md) | starter → useful custom tool | `mcp-starter-typescript` | customization guide, sample tool, test flow |
 | [Example 3 — MCP health-check](examples/mcp-health-check/README.md) | validate a server before wiring it in | `mcp-health-check` | commands, sample outputs, troubleshooting |
+| [Example 6 — Rate-limited MCP server](examples/rate-limiter/README.md) | production safety pattern | generic MCP server | token bucket and sliding-window examples |
 
 ### v1.1.0 blueprints
 
@@ -55,6 +56,11 @@ examples/
   mcp-health-check/
     README.md
     commands.md
+  rate-limiter/
+    README.md
+    config.example.json
+    mcp-config.example.json
+    rate-limited-server.mjs
   multi-mcp-setup/
     README.md
   mcp-llm-integration/
