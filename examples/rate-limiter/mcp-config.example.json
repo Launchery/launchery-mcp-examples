@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "rate-limited-example": {
+      "command": "node",
+      "args": ["/absolute/path/to/launchery-mcp-examples/examples/rate-limiter/rate-limited-server.mjs"],
+      "env": {
+        "RATE_LIMIT_STRATEGY": "token_bucket",
+        "RATE_LIMIT_CAPACITY": "5",
+        "RATE_LIMIT_REFILL_PER_SECOND": "1"
+      }
+    }
+  }
+}

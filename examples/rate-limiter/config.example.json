@@ -1,0 +1,14 @@
+{
+  "tokenBucket": {
+    "strategy": "token_bucket",
+    "capacity": 20,
+    "refillPerSecond": 2,
+    "key": "global"
+  },
+  "slidingWindow": {
+    "strategy": "sliding_window",
+    "maxRequests": 60,
+    "windowMs": 60000,
+    "key": "global"
+  }
+}
